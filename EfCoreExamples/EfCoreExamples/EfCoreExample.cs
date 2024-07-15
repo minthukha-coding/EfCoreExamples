@@ -80,7 +80,7 @@ public class EfCoreExample
     }
 
     private void Delete(int id)
-    {
+    { 
         var item = _appDbContext.Blogs.FirstOrDefault(x => x.BlogId == id);
         if (item == null)
         {
